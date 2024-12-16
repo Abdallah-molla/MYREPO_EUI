@@ -1,7 +1,7 @@
 node {
    
 
-    try {
+         git branch: "main",url: "https://github.com/Abdallah-molla/MYREPO_EUI.git"
         stage('Build') {
             echo 'Building the project...'
             // Add build commands here
@@ -12,7 +12,7 @@ node {
             // Add test commands here
         }
 
-        }
+        
    
     }
 
