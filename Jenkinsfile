@@ -1,4 +1,4 @@
-node {
+node('dokcer-agent') {
    
 
          git branch: "main",url: "https://github.com/Abdallah-molla/MYREPO_EUI.git"
@@ -11,8 +11,6 @@ node {
             echo 'Running tests...'
             // Add test commands here
         }
-
-        
+     
    
     }
-
