@@ -3,7 +3,7 @@ node('dokcer-agent') {
 
          git branch: "main",url: "https://github.com/Abdallah-molla/MYREPO_EUI.git"
         stage('Build') {
-            echo 'Building the project...'
+            sh 'mvn clean package'
             // Add build commands here
         }
 
